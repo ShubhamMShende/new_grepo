@@ -1,3 +1,6 @@
+for i in range(1,10,2):
+    print(i)
+
 x = float(input("Please enter a number:"))
 y = float(input("Please enter a second number:"))
 
@@ -21,5 +24,5 @@ elif choice == 4:
     print(x / y)
 else :
     print("You did not enter a valid choice.")
-    
+
 print('Thank You..!!')
